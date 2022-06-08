@@ -1,1 +1,11 @@
-
+- name: "isinamadisini"
+  type: trojan
+  server: id1.masterwifi.xyz
+  port: 443
+  password: yourpsk
+  udp: true
+  sni: bugmu-isi.disini.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
